@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+.container {
+    margin: 0;
+    max-width: 400px;
+    margin: 50px auto 0;
+
+
+
+}
+
+
+
+.container form {
+    margin: 0;
+    margin-top: 50px;
+   margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px rgba(150, 149, 149, 0.3);
+    text-align: center;
+    
+
+
+}
+
+ 
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"] {
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+ 
+}
+
+.container form label {
+
+    display: block;
+    text-align: start;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* margin-left: -20px ; */
+
+
+}
+
+.form-group-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.form-group-checkbox input{
+  height: 25spx;
+    width: 25px;
+}
+ 
+
+
+.container form .btn {
+    all: unset;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    font: 16px;
+    color: white;
+    cursor: pointer;
+    /* box-sizing: border-con; */
+
+
+}
+
+.container form .btn:hover {
+
+    background-color: #0056b3;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;   
+    background-color: #007bff; 
+}
+
+nav a{
+    all: unset;
+    color: white;
+    
+}
+nav a:hover{
+    color: darkblue;
+    background-color: lightblue;
+    padding: 12px;
+    border-radius: 5px;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+     font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+.tbl-record{
+    background-color: black !important;
+}
+
+.tbl-record,td,th{
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border-spacing: 10px;
+    
+}
+
+ 
+
+.content-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.crud-op{
+   
+    margin-left: 940px;
+     
+    /* background-color: white; */
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border-radius: 8px;
+    
+}
+
+
+/* background-color: #007bff;
+background-color: #0056b3; */
+.crud-op a{
+   
+    all: unset;     
+    background-color:  gold   ;
+    border: 1px solid lightgray;
+    padding: 12px 30px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 5px rgba(150, 149, 149, 0.3); 
+}
+
+.crud-op a:hover{
+    background-color: rgba(231, 197, 1, 0.922); 
+}
+
+#about{
+    margin: 0;
+    margin-top: 180px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px rgba(150, 149, 149, 0.3);
+    text-align: center;
+}
+#about p{
+    text-align: left;
+    padding: 50px 90px;
+    text-indent: 2cm;
+}
+#contact{
+    margin: 0;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px rgba(150, 149, 149, 0.3);
+    text-align: center;
+}
+
+#contact ul{
+    list-style: none;
+}
+
+
+table{
+    text-align: center;
+}
+
+table th{
+
+    background-color: whitesmoke   ;
+    color: #797272;
+}
+
+
+
+table td:hover  {
+    background-color: black;
+    color: white;
+}
+
+
+.delete-act{
+    background-color: salmon;
+    color: black;
+    border: black;
+}
+
+.delete-act:hover{
+    color: rgb(227, 56, 37);
+    background-color: black;
+    border: white !important;
+    font-weight: bold;
+
+}
+.update-act {
+    border: black;
+    background-color: lime;
+}
+
+.update-act:hover {
+    background-color: black;
+    color: rgb(9, 176, 9);
+    border: white !important;
+    font-weight: bold;  
+}
+
+.update-act a{
+    all: unset; 
+}
